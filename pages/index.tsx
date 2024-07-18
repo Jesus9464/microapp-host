@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
-import { Microapp1, Microapp2, Microapp3 } from "./microapps";
+import { Microapp1, Microapp2, Microapp3 } from "../microapps";
 
-import { createAndDispatchEvent } from "./helpers";
+import { createAndDispatchEvent } from "../helpers";
 
 const inter = Inter({ subsets: ["latin"] });
 
